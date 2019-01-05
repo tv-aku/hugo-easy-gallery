@@ -72,7 +72,8 @@ document.addEventListener('DOMContentLoaded', function() {
             var options = {
                 index: index,
                 bgOpacity: 0.8,
-                showHideOpacity: true
+                showHideOpacity: true,
+                shareEl: false,
             }
             new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options).init();
         }, false);
